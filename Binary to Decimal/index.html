@@ -8,15 +8,28 @@
     <style>
         body{
             background-image: url(./Images/SL-103020-37400-15.jpg);
+            
             background-size: cover;
+        
+            /* background-repeat: no-repeat; */
         }
-        h1{
+        #container{
+            background-color:rgba(3, 7, 56, 0.952);
+            border-radius: 30px;
+            padding:20px;
             margin:auto;
+            max-width: 600px;
+            position: relative;
+            margin-top: 250px;
+            color:white;
             text-align: center;
-        }
-        h2{
-            margin:auto;
-            text-align: center;
+            font-family: 'Righteous', cursive;
+            border-color: rgba(13, 211, 218, 0.911);
+            box-sizing: border-box;
+            border-style: outset;
+            margin-bottom: 10px;
+            
+            
         }
         input{
             display:block;
@@ -26,9 +39,15 @@
         }
         button{
             display: block;
-            font-size: 20px;
             margin:auto;
             margin-top: 20px;
+            background-color:rgba(13, 211, 218, 0.911);
+            padding: 10px;
+            border-radius: 20px;
+            width: 200px;
+            font-family: monospace;
+            font-weight: bold;
+            font-size: 20px;
         }
         #result{
             
@@ -37,6 +56,49 @@
             font-size: 26px;
             font-weight: bold;
             margin-top: 20px;
+        }
+        footer{
+            background-color:rgba(6, 14, 105, 0.623);
+            position: fixed;
+            width: 100%;
+            text-align: center;
+            bottom: 0;
+            left:0;
+            color:rgb(253, 255, 255);  
+        }
+        a{
+            color:rgb(13, 211, 218);
+        }
+        @media screen and (max-width: 600px) {
+            body{
+            background-image: url(./Images/SL-103020-37400-15.jpg);
+            background-size: cover;
+             
+            }         
+            
+            #container{
+            background-color:rgba(3, 7, 56, 0.952);
+            border-radius: 30px;
+            padding:20px;
+            margin:auto;
+            max-width: 600px;
+            position: relative;
+            margin-top: 200px;
+            color:white;
+            text-align: center;
+            font-family: 'Righteous', cursive;
+            border-color: rgba(13, 211, 218, 0.911);
+            box-sizing: border-box;
+            border-style: outset;
+            margin-bottom: 10px;
+            }
+            input{
+            display:block;
+            font-size:20px;
+            margin:auto;
+            width: 100%;
+            text-align: center;
+            }
         }
     </style>
 </head>
@@ -57,7 +119,8 @@
     </div>
 
     <footer>
-        <a href="https://www.freepik.com/vectors/technology">Technology vector created by starline - www.freepik.com</a>
+        <p>Background:
+        <a href="https://www.freepik.com/vectors/technology">Technology vector created by starline - www.freepik.com</a></p>
     </footer>
     
     <script>
